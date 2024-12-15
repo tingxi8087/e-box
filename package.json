@@ -11,6 +11,11 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tingxi8087/e-box.git"
+  },
+  "homepage": "https://github.com/tingxi8087/e-box",
   "scripts": {
     "dev": "vite",
     "start": "npm run dev",
