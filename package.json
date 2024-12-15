@@ -11,6 +11,10 @@
   "files": [
     "dist"
   ],
+  "keywords": [
+    "redux",
+    "react"
+  ],
   "repository": {
     "type": "git",
     "url": "git@github.com:tingxi8087/e-box.git"
