@@ -26,7 +26,7 @@
     "start": "npm run dev",
     "build": "vite build --config vite.config.build.ts",
     "build:min": "terser dist/index.umd.js -o dist/index.min.js -c -m",
-    "sync": "npm publish && cnpm sync e-boxes && explorer \"https://npmmirror.com/package/e-boxes\""
+    "sync": "npm publish && cnpm sync e-boxes"
   },
   "dependencies": {
     "@types/use-sync-external-store": "^0.0.6",
