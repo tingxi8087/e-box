@@ -13,7 +13,8 @@
   ],
   "keywords": [
     "redux",
-    "react"
+    "react",
+    "e-boxes"
   ],
   "repository": {
     "type": "git",
