@@ -1,5 +1,5 @@
 {
-  "name": "e-box",
+  "name": "e-boxes",
   "private": false,
   "version": "0.0.1",
   "type": "module",
@@ -21,7 +21,7 @@
     "start": "npm run dev",
     "build": "vite build --config vite.config.build.ts",
     "build:min": "terser dist/index.umd.js -o dist/index.min.js -c -m",
-    "sync": "npm publish && cnpm sync mas-server && explorer \"https://npmmirror.com/package/mas-encrypt\""
+    "sync": "npm publish && cnpm sync e-box && explorer \"https://npmmirror.com/package/e-box\""
   },
   "dependencies": {
     "@types/use-sync-external-store": "^0.0.6",

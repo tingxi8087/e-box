@@ -1,4 +1,4 @@
-# e-box
+# e-boxes
 
 一个关于React的超级简单的全局状态管理器
 
@@ -7,11 +7,11 @@
 安装
 
 ```sh
-cnpm i e-box
+cnpm i e-boxes
 # or
-yarn add e-box
+yarn add e-boxes
 # or
-npm i e-box
+npm i e-boxes
 ```
 
 ## 使用
@@ -21,7 +21,7 @@ npm i e-box
 // store.js
 
 ```javascript
-import eBox from "e-box";
+import eBox from "e-boxes";
 
 export const store = eBox({
   count: 0,
