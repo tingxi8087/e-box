@@ -17,15 +17,15 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:tingxi8087/e-box.git"
+    "url": "git@github.com:tingxi8087/e-boxes.git"
   },
-  "homepage": "https://github.com/tingxi8087/e-box",
+  "homepage": "https://github.com/tingxi8087/e-boxes",
   "scripts": {
     "dev": "vite",
     "start": "npm run dev",
     "build": "vite build --config vite.config.build.ts",
     "build:min": "terser dist/index.umd.js -o dist/index.min.js -c -m",
-    "sync": "npm publish && cnpm sync e-box && explorer \"https://npmmirror.com/package/e-box\""
+    "sync": "npm publish && cnpm sync e-boxes && explorer \"https://npmmirror.com/package/e-boxes\""
   },
   "dependencies": {
     "@types/use-sync-external-store": "^0.0.6",
